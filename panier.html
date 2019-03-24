@@ -1,0 +1,42 @@
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="icon_panier" content="css,html">    
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/panier.css">
+    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet"> <!--pour changer le font style source="https://fonts.google.com/specimen/Satisfy"-->
+
+</head>
+<body>
+        <header>
+                <nav>
+                    <div class="navbar">
+                        <ul>
+                        <li><a href="index.html">Acceuil</a></li>
+                        <li><a href="cre.html">Nos Créations</a></li>
+                        <li><a href="personnalise.html">Personnalisé</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="index.html"><summary>cTd</summary></a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <div class="user_ask">
+                <form action="panier.html" method="POST">
+                        <label for="firstname">Prénom * : </label>
+                        <input type="text" name="firstname" value="" placeholder="Prénom" required>
+                        <br>
+                        <label for="lastname">Nom * : </label>
+                        <input type="text" name="lastname" value="" placeholder="Nom" required>
+                        <br>
+                        <label for="tel">Tel * : </label>
+                        <input type="text" name="tel" value="" placeholder="Tel" required>
+                        <br>
+                        <label for="code">Code * : </label>
+                        <input type="password" name="code" value="" placeholder="Code" required>
+                        <br>
+                        <input type="submit" name="submit" value="payer">
+                </form>
+            </div>
+</body>
+</html>

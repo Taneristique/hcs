@@ -1,0 +1,10 @@
+
+.user_ask{
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-image-slice: 100px;
+    size:550%;
+    width:550%;
+    height:550%;
+    margin: 400px  800px auto;
+}
