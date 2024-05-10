@@ -1,5 +1,23 @@
 #support_technique{
     font-size: 30px;
-    margin: 100px auto;
-    color : white;
+    color : black;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(4, 1fr); 
+
+    position: relative;
+    place-content: center;
+    height: 100%;
+    margin-top: 2.7em;
+
 }
+span{
+    place-content: center;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(176, 172, 199));
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end : 5;
+    padding-left: 3px;
+}
+
