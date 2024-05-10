@@ -1,5 +1,7 @@
 body{
-    background-color: black;
+    background-image: url("https://img-s1.onedio.com/id-5e202c0640856f4d10754b69/rev-0/w-600/h-400/f-jpg/s-c43339b00747d34d2b2a7eef283e67a90c6b6e29.jpg");
+    margin: 0;
+    overflow: hidden;
 }
 .navbar{
     position: absolute;
@@ -22,10 +24,11 @@ header nav {
 
 header nav ul {
     height: 100%;
-    width: 100%;
+    width: 100vw;
     display: flex;
  
     justify-content: center;
+    align-items: center;
 }
 
 header nav ul li {
@@ -59,17 +62,26 @@ summary{
     font-family: 'Satisfy', cursive; /*pour changer le font style*/
 }
 
-#explication{
-    margin-top: 2em;
-
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(5, 1fr); 
 }
 
-p {
+
+.container>p {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end:-1;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(176, 172, 199));
+    place-content: center;
+    padding: 2px;
     font-size: 30px;
-    color: white;
+    color: black;
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    
+    
 }
