@@ -3,8 +3,22 @@
     color:white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-image-slice: 100px;
-    size:550%;
-    width:550%;
-    height:550%;
-    margin: 400px  800px auto;
+    width:100vw;
+    height:100vh;
+    display: grid;
+    place-content: center;
+}
+label{
+    font-size: 30px;
+}
+input{
+    background-color : rgb(75, 9, 9);
+    color : greenyellow;
+    height: 2em;
+}
+.payment{
+    border-radius: 50%;
+    position: relative;
+    left: 70;
+    top : 20;
 }
