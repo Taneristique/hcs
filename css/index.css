@@ -1,28 +1,37 @@
 body{
     background-color: black;
 }
-
-header nav {
+.navbar{
+    position: absolute;
+}
+header{
+    display: block;
     position: fixed;
     left: 0;
     top: 0;
-
-    background-color: lightblue;
-    height: 50px;
+    height: 5em;
     width: 100%;
+}
+header nav {
+
+    background-color: rgb(49, 83, 94);
+    height: 100%;
+    width: 100%;
+
 }
 
 header nav ul {
     height: 100%;
-    display: inline-block;
-    margin-top:1px; 
+    width: 100%;
+    display: flex;
+ 
+    justify-content: center;
 }
 
 header nav ul li {
-    display: inline-block;
     /* display: inline-flex; 
     /* align-items:center; */
-
+    list-style: none;
     height: 100%;
     /* padding: 0 20px; */
 
@@ -31,13 +40,11 @@ header nav ul li {
 }
 
 header nav ul li a {
-    padding: 0 20px;
+    padding: 0 20px 0 0;
     height: 100%;
+    width: 100%;
 
-    display: flex;
-    align-items: center;
-
-    color: #F7E35F	;
+    color: #22252c	;
     text-decoration: none;
     font-size: 1.2em;
 
@@ -45,16 +52,16 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    background-color:white;
+    color:#F6F1D5 ;
 }
 
 summary{
     font-family: 'Satisfy', cursive; /*pour changer le font style*/
 }
 
-.navbar{
-    position: absolute;
-    left:890px ;
+#explication{
+    margin-top: 2em;
+
 }
 
 p {
